@@ -1,0 +1,118 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: #f4f1ea;
+    color: #333333;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background-color: #263849;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+/* Showcase Sections */
+.showcase {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Section Headings */
+.showcase h2 {
+    color: #24558a;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 2px solid #d5a85c;
+    padding-bottom: 8px;
+}
+
+/* Heading Styles */
+.heading-large {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.heading-medium {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.heading-small {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Paragraph Styles */
+.normal-text {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.large-text {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.center-text {
+    text-align: center;
+    color: #24558a;
+}
+
+/* Text Emphasis */
+.bold-text {
+    font-weight: 700;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.spaced-text {
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #263849;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
